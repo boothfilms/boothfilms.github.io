@@ -1,0 +1,67 @@
+/*Style*/
+/*--------------------------------*/
+
+body{
+  background: #fff;
+  color: #232222;
+  font-family: arial, verdana, sans-serif;
+  font-size: 12px;
+}
+
+h1 {
+  background: url('title.png') 0 0 no-repeat;
+  width: 251px;
+  height: 113px;
+  overflow: hidden;
+  text-align: left;
+  display: block;
+  line-height: 0;
+  text-indent: -1000em;
+  position: absolute;
+  top: 20px;
+  left: -20px;
+}
+
+#wrapper{
+  margin: 0 auto;
+  max-width: 940px;
+  position: relative;
+  padding: 0;
+}
+
+a{
+  color: #232222;
+  text-decoration: none;
+}
+
+a:hover{color: #ed1b24;}
+
+p.contact{
+  float: right;
+  margin-top: 30px;
+}
+
+h2{
+  font-size: 22px;
+  margin: 20px 0;
+}
+
+img{
+  width: 100%; display: block;
+}
+
+p, h2{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+/*Smaller Mobile Version*/
+
+@media (max-width: 1024px) {
+  body{background-size: 100% auto;}
+  h1 {left:20px;}
+  p, h2{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+}
