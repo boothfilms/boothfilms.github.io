@@ -35,11 +35,12 @@ p{
 }
 
 a{
-  color: #232222;
+  color: #ed1b24;
   text-decoration: none;
+  font-weight: bold;
 }
 
-a:hover{color: #ed1b24;}
+a:hover{text-decoration: underline;}
 
 p.contact{
   float: right;
@@ -63,7 +64,6 @@ p, h2{
 }
 
 /*Smaller Mobile Version*/
-
 @media (max-width: 1024px) {
   body{background-size: 100% auto;}
   h1 {left:20px;}
@@ -71,6 +71,9 @@ p, h2{
     padding-left: 20px;
     padding-right: 20px;
   }
+}
+
+@media (max-width: 480px) {
   h2, p.contact{
     float: none;
   }
